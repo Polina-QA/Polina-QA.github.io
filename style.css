@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+}
+.intro:after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,
+.5);
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+}
+.intro__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.conteiner{
+  width: 100%;
+  max-width: 1200ph;
+  margin: 0 auto;
+}
+.intro_title{
+  margin: 0;
+  font-size: 45ph;
+  color: #fcfbd5;
+  text-align: center;
+  font-style: italic;
+  
+}
+.intro{
+  max-height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+  background: url("я(1).png") 
+  center no-repeat;
+  background-size: cover;
+}
+.video{
+  position: relative;
+  z-index: 1;
+  padding-bottom: 56.25%;
+}
+.Video_media{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
